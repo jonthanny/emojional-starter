@@ -15,3 +15,15 @@ function showHappyMsg() {
   message.innerHTML = happyMessages[randomIndex];
   console.log(randomIndex);
 }
+
+function showSillyMsg() {
+  randomIndex = Math.floor(Math.random() * sillyMessages.length);
+  message.innerHTML = sillyMessages[randomIndex];
+  console.log(randomIndex);
+}
+
+function showCryingMsg() {
+  randomIndex = Math.floor(Math.random() * cryingMessages.length);
+  message.innerHTML = cryingMessages[randomIndex];
+  console.log(randomIndex);
+}
